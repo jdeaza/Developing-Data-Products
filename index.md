@@ -62,8 +62,7 @@ We show an example the output that you can estimate easily:
 ## carb        -0.19941925  0.82875250 -0.2406258 0.81217871
 ```
 
-In the following link you can try my app:
-
-[Here](https://appsjdeaza.shinyapps.io/appjdeazaf/)
+In the following link you can try my app: [Here](https://appsjdeaza.shinyapps.io/appjdeazaf/)
 
 ---
+
