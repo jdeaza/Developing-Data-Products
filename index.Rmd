@@ -1,0 +1,60 @@
+---
+title       : Developing Data Products
+subtitle    : Course Project
+author      : JDeaza
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [shiny, interactive]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+--- 
+
+## Introduction
+
+Regression models are an important tool to estimate causality relationship among variables. For example, when we analize demand functions, we are interested in the demand determinants, as price of the good, price of the substitutes or complements goods and money. The application to Course Project of the Developing Data Products, we make an application that you can use estimate linear regression models and a model diagnosis.
+
+--- 
+
+## Description app and source data
+
+The app, estimate a linear regression model using Ordinary Least Square, we can find the coefficients of the regression, standard errors, t statistic and p-value. We can find estimate the Cook's distance to make regression diagnostics. The source data for this project, is a database that we had used in different courses of the Data Sciece Specialization, this is mtcars. Following I going to do a brief explanation of the variables:
+
+- mpg:  Miles/(US) gallon,	cyl:	Number of cylinders
+-	disp:	Displacement (cu.in.), hp:	Gross horsepower
+-	drat:	Rear axle ratio, wt:	Weight (lb/1000)
+-	qsec:	1/4 mile time, vs:	V/S
+-	gear:	Number of forward gears, carb:	Number of carburetors
+- am:	Transmission (0 = automatic, 1 = manual)
+
+---
+
+## My Regression lineal app
+
+This app has a few simple steps that you have to follow:
+
+- You need to select the dependent variable.
+- You need to select the independent variables. The app starts with the whole of the independent variables, you can delete different variables to see how can change the final outcome.
+
+Addtional, you obtain an diagnostic analysis after estimation. This test is the Cook's distance. 
+
+--------
+
+## Try the app
+
+We show an example the output that you can estimate easily:
+
+```{r, echo=FALSE, message=FALSE}
+
+library(datasets)
+
+model <- lm(mpg ~., data = mtcars)
+summary(model)$coefficients
+```
+
+In the following link you can try my app: [Here](https://appsjdeaza.shinyapps.io/appjdeazaf/)
+
+---
+
