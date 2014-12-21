@@ -1,7 +1,7 @@
 Developing-Data-Products. A brief description about the Linear regression app
 =============================================================================
 
-The app Linear Regressión, is available in the link https://appsjdeaza.shinyapps.io/appjdeazaf/, with this app you can estimate a linear model using Ordinary Least Squares, you can get of this application a table wiyh the following outcome:
+The app Linear Regressión, is available in the link https://appsjdeaza.shinyapps.io/appjdeazaf/, with this app you can estimate a linear model using Ordinary Least Squares, you can get of this application a table with the following outcome:
 
 - Coefficients estimated.
 - Standard errors.
