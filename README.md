@@ -10,7 +10,7 @@ The app Linear Regressión, is available in the link https://appsjdeaza.shinyapp
 
 You can select both dependent variable and independent variables with a simple check list. Addtionally, you get a Diagnostics Test after regression (Cook´s distance). The data that this app works is mtcars into the datasets package: http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/mtcars.html. If you need additional information about the app, you can sownload the presentation in the following link: http://jdeaza.github.io/Developing-Data-Products/#5.
 
-If you want reproduce this app in your computer, in this repository you can find the code (ui.R and server.R) Only you need R and R.Studio.
+If you want reproduce this app in your computer, in this repository you can find the code (ui.R and server.R). Only you need R and R.Studio.
 
 I hope this app could be useful for you in a simple linear estimations.
 
