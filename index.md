@@ -47,6 +47,13 @@ Addtional, you obtain an diagnostic analysis after estimation. This test is the 
 We show an example the output that you can estimate easily:
 
 
+```r
+library(datasets)
+
+model <- lm(mpg ~., data = mtcars)
+summary(model)$coefficients
+```
+
 ```
 ##                Estimate  Std. Error    t value   Pr(>|t|)
 ## (Intercept) 12.30337416 18.71788443  0.6573058 0.51812440

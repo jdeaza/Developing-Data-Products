@@ -98,6 +98,12 @@
   <article data-timings="">
     <p>We show an example the output that you can estimate easily:</p>
 
+<pre><code class="r">library(datasets)
+
+model &lt;- lm(mpg ~., data = mtcars)
+summary(model)$coefficients
+</code></pre>
+
 <pre><code>##                Estimate  Std. Error    t value   Pr(&gt;|t|)
 ## (Intercept) 12.30337416 18.71788443  0.6573058 0.51812440
 ## cyl         -0.11144048  1.04502336 -0.1066392 0.91608738
